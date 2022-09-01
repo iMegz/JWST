@@ -1,4 +1,4 @@
-const api = "http://localhost:3000";
+const api = "https://jwst3js.herokuapp.com";
 
 const raycaster = new THREE.Raycaster();
 const mouse = new THREE.Vector2();
@@ -79,7 +79,7 @@ function init() {
     addSphere(scene, "moon", 17.37, [384.4, 0, 0], "moon");
     {
         const gltfLoader = new THREE.GLTFLoader();
-        const path = "http://localhost:3000/scene/scene.gltf";
+        const path = "https://jwst3js.herokuapp.com/scene/scene.gltf";
         gltfLoader.load(path, (gltf) => {
             const mesh = gltf.scene;
             // mesh.position = new THREE.Vector3(1609, 0, 0);
