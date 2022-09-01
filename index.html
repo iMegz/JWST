@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/main.css" />
+        <title>James Webb Space Telescope</title>
+    </head>
+    <body>
+        <canvas id="c"></canvas>
+        <div class="btn">
+            <h2>Ratios</h2>
+            <h3>Radius</h3>
+            <p>100 km : 1 U</p>
+            <h3>Distance</h3>
+            <p>1000 km : 1 U</p>
+            <h3>Time</h3>
+            <p>2.7 hrs : 1 sec</p>
+            <!-- <input type="range" id="x" max="6.28" min="0" step="0.1" />
+            <input type="range" id="y" max="6.28" min="0" step="0.1" />
+            <input type="range" id="z" max="6.28" min="0" step="0.1" /> -->
+        </div>
+        <div class="info">
+            <h2>Info</h2>
+            <h3 id="title"></h3>
+            <ul id="infoContent"></ul>
+        </div>
+        <script src="https://r105.threejsfundamentals.org/threejs/resources/threejs/r105/three.min.js"></script>
+        <script src="https://r105.threejsfundamentals.org/threejs/resources/threejs/r105/js/controls/OrbitControls.js"></script>
+        <script src="https://r105.threejsfundamentals.org/threejs/resources/threejs/r105/js/loaders/GLTFLoader.js"></script>
+        <script src="https://r105.threejsfundamentals.org/threejs/../3rdparty/dat.gui.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
