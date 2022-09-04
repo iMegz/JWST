@@ -75,7 +75,7 @@ function init() {
     //----------------- Scene components -----------------//
     //----------------------------------------------------//
     addSkybox(scene, 30000);
-    addSphere(scene, "sun", 63.71, [0, 0, 0], "earth");
+    addSphere(scene, "earthDay8K", 63.71, [0, 0, 0], "earth");
     addSphere(scene, "moon", 17.37, [384.4, 0, 0], "moon");
     {
         const gltfLoader = new THREE.GLTFLoader();
